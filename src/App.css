@@ -1,38 +1,197 @@
-.App {
-  text-align: center;
+
+
+.App{
+  background-color: green;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.container{
+  border: 10px ;
+border-radius: 20px;
+  background-color: white;
+  box-shadow:2px 2px 2px 2px rgba(0,0,0,0.3);
+ 
+   margin: 2%;
+   width:320px;
+   display: inline-block;
+   height:140px;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .product_content{
+    width:fit-content ;
+     height:127px;
+     
   }
-  to {
-    transform: rotate(360deg);
+
+
+
+
+
+.header{
+  min-width: fit-content;
+  width: 100%;
+  
+  height: 80px;
+  margin-top: 0px;
+  background-color: rgb(224, 218, 218);
+  display: inline-block;
+
+}
+
+
+.papplu{
+  float: right;
+  margin: 0px;
+  height: 80px;
+  width: 400px;
+}
+
+
+
+.pappu{
+  display: inline-block;
+  width: fit-content;
+  margin: 15px;
+  font-size: 1em;
+
+
+}
+
+
+
+
+.pappu a{
+  text-decoration: none;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: rgb(0, 0, 0);
+  font-size: large;
+}
+
+
+
+.choto{
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+  color: rgb(8, 9, 8);
+
+
+}
+
+
+
+
+.choto:after{
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: rgb(245, 240, 235);
+  transform-origin: bottom right;
+  transition: transform 0.2s ease-out;
+
+}
+
+
+
+
+
+.choto:hover:after{
+
+  transform: scaleX(1);
+  transform-origin: bottom left;
+  
+}
+
+
+.taplu{
+  display: none;
+}
+
+@media only screen and (max-width:700px){
+ .papplu{
+   display: none;
+
+ }
+ .taplu{
+   display: inline-block;
+ }
+
+}
+@media screen and (max-width:696px) {
+  .container{
+    width: 96%;
+    margin: 2%;
   }
+  
+}
+
+
+.shibu{
+ 
+  height:80px;
+  width: 80px;
+  margin-right: 400px;
+}
+
+
+
+
+
+.btnlogin{
+  background:transparent;
+  font-size: 1.5em;
+  
+  margin-right: 400px;
+ position: absolute;
+ /* right: 150px; */
+ top: 25px;
+ right: 80px;
+}
+
+
+
+
+.noc1{
+  width: fit-content;
+  height: 80px;
+  margin: 0;
+  position: absolute;
+  display: inline-block;
+  right: 2px;
+}
+
+ .cover{
+  padding: 0px 30px;
+  position: relative;
+ } 
+
+.left{
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50px);
+}
+
+.right{
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50px);
+
+}
+
+
+
+ .iconn{
+ float: right;
+  
+
+} 
+
+.iconi{
+  
+  left: 0;
+  
 }
