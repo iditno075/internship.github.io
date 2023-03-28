@@ -19,8 +19,8 @@ export default function Category() {
     return (
         
         <div className="main-scroll-div">
-            <div>
-                <button className="iconi" onClick={()=> scrolll(5)}> <i className="fa fa-angle-left"></i></button>
+            <div >
+                <button className="iconi" style={{position:""}} onClick={()=> scrolll(5)}> <i className="fa fa-angle-left"></i></button>
             </div>
             
         <div className="App" style={{backgroundColor:"green",border:"1px", width:"100%" ,textAlign:"center", overflowY:"auto", display:"flex"}}>
@@ -35,8 +35,8 @@ export default function Category() {
                 </div>
             })}
         </div>
-        <div>
-            <button className="iconn" style={{}} onClick={()=> scrollr(-5)}> <i className="fa fa-angle-right"></i></button>
+        <div style={{top:"18%"}}>
+            <button className="iconn"  onClick={()=> scrollr(-5)}> <i className="fa fa-angle-right"></i></button>
         </div>
         </div>
     );
