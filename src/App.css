@@ -185,13 +185,17 @@ border-radius: 20px;
 
 
  .iconn{
- float: right;
-  
+    position: absolute;
+    right: 0;
+    top:23%;
 
 } 
 
 .iconi{
-  
+  position: absolute;
   left: 0;
+  top:23%;
+  
+  
   
 }

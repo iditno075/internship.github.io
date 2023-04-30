@@ -78,4 +78,7 @@ export const product = [
         price: "₹/199",
         imageUrl: "https://www.vegrecipesofindia.com/wp-content/uploads/2015/05/mango-milkshake-with-ice-cream-280x280.jpg"
      }
-]
+];
+
+
+
